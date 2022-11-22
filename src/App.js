@@ -11,13 +11,16 @@ import {
 
 import Home from "./pages/Home";
 import Conf from "./pages/List";
+import About from "./pages/About";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/conferances" element={<Conf/>}/>
+        <Route path="/Home" element={<Home/>}/>
+        <Route path="/conferences" element={<Conf/>}/>
+        <Route path="/about" element={<About/>}/>
       </Routes>
     </BrowserRouter>
   );

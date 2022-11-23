@@ -12,48 +12,16 @@
 				"method": "POST",
 				"header": [],
 				"body": {
-					"mode": "urlencoded",
-					"urlencoded": [
-						{
-							"key": "Title",
-							"value": "aa",
-							"description": "String",
-							"type": "text"
-						},
-						{
-							"key": "Description",
-							"value": "aa",
-							"description": "String",
-							"type": "text"
-						},
-						{
-							"key": "Location",
-							"value": "01a",
-							"description": "String",
-							"type": "text"
-						},
-						{
-							"key": "Guest",
-							"value": "ahmed",
-							"description": "String",
-							"type": "text"
-						},
-						{
-							"key": "Date",
-							"value": "2022-12-12",
-							"description": "yyyy-mm-dd",
-							"type": "text"
-						},
-						{
-							"key": "nbPlace",
-							"value": "2",
-							"description": "Long",
-							"type": "text"
+					"mode": "raw",
+					"raw": "\r\n{\r\n\"Title\":\"new\",\r\n\"Description\":\"test\",\r\n\"Location\":\"nabeul\",\r\n\"Guest\":\"ahmed\",\r\n\"Date\":\"2022-12-12\",\r\n\"nbPlace\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
 						}
-					]
+					}
 				},
 				"url": {
-					"raw": "http://localhost:8090/Conference/api",
+					"raw": "http://localhost:8090/Conference/api?title=new&description=test&location=nabeul&guest=ahmed&date=2022-12-12&nbPlace=2",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -62,6 +30,32 @@
 					"path": [
 						"Conference",
 						"api"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "new"
+						},
+						{
+							"key": "description",
+							"value": "test"
+						},
+						{
+							"key": "location",
+							"value": "nabeul"
+						},
+						{
+							"key": "guest",
+							"value": "ahmed"
+						},
+						{
+							"key": "date",
+							"value": "2022-12-12"
+						},
+						{
+							"key": "nbPlace",
+							"value": "2"
+						}
 					]
 				}
 			},

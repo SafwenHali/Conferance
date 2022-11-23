@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const Conf =() => {
     return(
-        <div class="bg-indigo-200">
+        <div class="bg-indigo-50">
             <Nav/>
             <div class="py-28 font-semibold text-2xl tracking-tight text-indigo-500">
                 Conferances

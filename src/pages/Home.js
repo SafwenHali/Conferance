@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 const Home =() => {
     return(
-        <div class="bg-indigo-200">
+        <div class="bg-indigo-50">
             <Nav/>
             <div class="font-semibold text-2xl tracking-tight text-indigo-500 py-28 ">
                 Welcome to We Conference    

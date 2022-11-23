@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const Login =() => {
     return(
-        <div class="bg-indigo-200">
+        <div class="bg-indigo-50">
             <Nav/>
             <div class="py-28">
             <Log/>

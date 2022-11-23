@@ -5,11 +5,13 @@ import Footer from '../components/Footer';
 
 const Conf =() => {
     return(
-        <div>
+        <div class="bg-indigo-200">
             <Nav/>
-            Conferance
-            <List/>
-            {/* <Footer/> */}
+            <div class="py-28 font-semibold text-2xl tracking-tight text-indigo-500">
+                Conferances
+                <List/>
+            </div>
+            <Footer/>
         </div>
     )
 

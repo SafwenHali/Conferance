@@ -1,15 +1,18 @@
 import React from "react";
 import Nav from '../components/Navbar';
+import Log from '../components/Login';
 import Footer from '../components/Footer';
 
-const About =() => {
+const Login =() => {
     return(
         <div class="bg-indigo-200">
             <Nav/>
-           <div class="py-28 font-semibold text-2xl tracking-tight text-indigo-500">About</div> 
+            <div class="py-28">
+            <Log/>
+            </div>
             <Footer/>
         </div>
     )
 
 }
-export default About;
+export default Login;

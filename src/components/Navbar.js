@@ -7,7 +7,7 @@ const Nav = () => {
       <div class="flex items-center flex-shrink-0 text-white mr-6">
       <a href="/">
         <span class="font-semibold text-2xl tracking-tight">
-          CONFERENCE
+          WE CONFERENCE
         </span>
       </a>
       </div>
@@ -34,8 +34,8 @@ const Nav = () => {
       </a>
     </div>
     <div>
-      <a class="inline-block text-lg px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 lg:mt-0">
-        Sign Up
+      <a href="/login" class="inline-block text-lg px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 lg:mt-0">
+        Login
       </a>
     </div>
   </div>

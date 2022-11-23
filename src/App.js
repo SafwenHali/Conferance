@@ -12,6 +12,7 @@ import {
 import Home from "./pages/Home";
 import Conf from "./pages/List";
 import About from "./pages/About";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Home" element={<Home/>}/>
         <Route path="/conferences" element={<Conf/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/login" element={<Login/>}/>
       </Routes>
     </BrowserRouter>
   );

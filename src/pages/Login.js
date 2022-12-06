@@ -7,7 +7,7 @@ const Login =() => {
     return(
         <div class="bg-indigo-50">
             <Nav/>
-            <div class="py-28">
+            <div class="pb-28">
             <Log/>
             </div>
             <Footer/>

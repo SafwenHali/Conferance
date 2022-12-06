@@ -1,17 +1,18 @@
 import React from "react";
 import Nav from '../components/Navbar';
 import Footer from '../components/Footer';
+import Card from '../components/Conferance'
 
-const About =() => {
+const Conf =() => {
     return(
         <div class="bg-indigo-50">
             <Nav/>
-           <div class="py-20 px-16 font-semibold text-2xl tracking-tight text-indigo-700">
-             About
+           <div class=" py-20 font-semibold text-2xl tracking-tight text-indigo-500 flex justify-center items-center">
+                <Card/> 
             </div> 
             <Footer/>
         </div>
     )
 
 }
-export default About;
+export default Conf;

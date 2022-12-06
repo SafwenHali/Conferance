@@ -15,7 +15,7 @@
 }
 .cover {
   margin-top: 100px;
-  background-color: rgb(129, 140, 248);
+  background-color: rgb(48, 63, 159);
   width: 50%;
   height: 500px;
   position: relative;
@@ -101,27 +101,3 @@ input:focus {
   transform: scale(1);
   transition: 1.5s;
 }
-
-/* -------------------- TABLET OPTIMIZATION -------------------- */
-/* @media only screen and (min-device-width: 37em) {
-  .page {
-    font-size: 1em;
-  }
-
-  .cover {
-    width: 60%;
-    height: 70%;
-  }
-} */
-
-/* -------------------- DESKTOP OPTIMIZATION -------------------- */
-/* @media only screen and (min-device-width: 64em) {
-  .page {
-    font-size: 1.25em;
-  }
-
-  .cover {
-    width: 25%;
-    height: 65%;
-  }
-} */
